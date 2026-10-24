@@ -17,7 +17,7 @@ import urllib.request
 
 # Tuning knobs: real cameras and hands differ, adjust here.
 CAMERA = 0
-MARGIN = 0.15        # ignore this fraction of each frame edge, so screen corners are reachable
+MARGIN = 0.25        # ignore this fraction of each frame edge, so screen corners are reachable (higher = less reach, less precision)
 SMOOTH_MIN = 0.08    # 0..1, how much the cursor follows small movements (lower = steadier, hits thin window edges)
 SMOOTH_FAST = 200    # pixels of hand movement at which the cursor follows with no smoothing
 PINCH_ON = 0.35      # thumb-index distance / hand size that starts a click
