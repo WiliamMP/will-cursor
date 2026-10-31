@@ -39,3 +39,7 @@ Os ajustes (câmera, margem, suavização, sensibilidade dos gestos, sons, HUD) 
 ```bash
 .venv/Scripts/python cursor.py --test
 ```
+
+## Licença
+
+[MIT](LICENSE)
